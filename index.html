@@ -931,7 +931,7 @@ function render(){
  }
 
  if(g.blackFlashTimer>0){
-  const a=Math.min(1,g.blackFlashTimer/30);
+  const a=Math.min(1,g.blackFlashTimer/90);
   ctx.fillStyle=`rgba(0,0,0,${0.96*a})`;
   ctx.fillRect(0,0,W,H);
   ctx.fillStyle=`rgba(255,255,255,${0.85*a})`;
